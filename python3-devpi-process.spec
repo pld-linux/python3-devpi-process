@@ -4,14 +4,14 @@
 %define		module	devpi-process
 Summary:	Programmatic API to create and use a devpi server process
 Name:		python3-%{module}
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 # if pypi:
 #Source0Download: https://pypi.org/simple/devpi-process/
 Source0:	https://files.pythonhosted.org/packages/source/d/devpi-process/devpi_process-%{version}.tar.gz
-# Source0-md5:	7f00f42d265d1aa0f026507cd62011e8
+# Source0-md5:	e60d3a4af90f956b77cded01eaa28aa7
 URL:		https://pypi.org/project/devpi-process/
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	python3-build
